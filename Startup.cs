@@ -32,7 +32,7 @@ namespace fur
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Boa tarde");
+                    await context.Response.WriteAsync("Boa noite");
                 });
             });
         }
